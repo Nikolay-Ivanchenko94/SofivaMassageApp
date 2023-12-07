@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SofivaMassageApp</string>
+    <string name="EditTextLoginEmail">Ваш E-mail</string>
+    <string name="EditTextLoginPassword">Ваш пароль</string>
+    <string name="BtnLoginBtn">Увійти</string>
+    <string name="EditTextRegisterNameSurname">Ваше Імя та Прізвище</string>
+    <string name="EditTextRegisterBd">Ваша дата народженя</string>
+    <string name="EditTextRegisterEmail">Ваш E-mail</string>
+    <string name="EditTextRegisterPsw">Ваш пароль</string>
+    <string name="EditTextRegisterReturnPsw">Повторно ваш пароль</string>
+    <string name="EditTextRegisterPhone">Ваш номер телефону</string>
+    <string name="TextViewUserProfile">Налаштування</string>
+    <string name="TextViewUserProfileName">Налаштування</string>
+    <string name="TextViewUserProfileEmail">Налаштування</string>
+    <string name="TextViewUserProfileBd">Налаштування</string>
+    <string name="TextViewUserProfilePhone">Налаштування</string>
+    <string name="TextViewForgotPassword">Забули пароль?</string>
+    <string name="TextViewForgotPassword1">Введть ваш E-mail для відновлення пароля</string>
+    <string name="EditTextForgotPasswordEmail">Ваш E-mail</string>
+    <string name="BtnForgotPassword">Скидання  пароля</string>
+    <string name="TextViewActivityUser">Soul and Body</string>
+    <string name="BtnAccount">Акаунт</string>
+    <string name="BtnFAQ">FAQ</string>
+    <string name="BtnServices">Послуги</string>
+    <string name="BtnSettings">Налаштування</string>
+    <string name="BtnAbout">Про нас</string>
+    <string name="TextViewBackMassageBack">Лікувальний масаж спини</string>
+    <string name="TextViewMassageBack">Масаж спини є одним з найпопулярніших видів масажу, оскільки спина є однією з найбільш напружених частин тіла. Він виконуються в ділянці шийного, грудного та попереково-крижового відділів хребта. Сприяє розслабленню мязів спини, зменшує їхні спазми і допомагає зняти мязову напругу</string>
+    <string name="BtnRight">Записатися</string>
+    <string name="EditTextSettings">Знайдіть налаштування </string>
+    <string name="TextViewChangePassword">Налаштування</string>
+    <string name="BtnChangePassword">Змінити пароль</string>
+    <string name="EditTextCurrentPassword">Введіть ваш пароль</string>
+    <string name="EditTextNewPassword">Введіть ваш новий пароль</string>
+    <string name="EditTextConfirmPassword">Введіть ваш пітвердженний пароль</string>
+    <string name="BtnSetPassword">Скидання пароля</string>
+    <string name="TextViewMassageOver">Soul and Body</string>
+    <string name="TextViewMassageTime" translatable="false">40 хвилин</string>
+    <string name="TextViewActivityCash" translatable="false">400 гривень</string>
+    <string name="TextViewMassageTotalFace">Масаж обличчя</string>
+    <string name="TextViewMassageFaceTime" translatable="false">30 хвилин</string>
+    <string name="TextViewMassageFaceCash" translatable="false">400 гривень</string>
+    <string name="TextViewMassagePregnant" translatable="false">Масаж для вагітних</string>
+    <string name="TextViewPregnant" translatable="false">Масаж під час вагітності - це чудовий спосіб зняти напругу та біль у майбутніх мам. Він може допомогти зменшити набряклість, покращити кровообіг, зменшити стрес, біль у спині та ногах, покращити настрій</string>
+    <string name="TextViewPregnantTime">60 хвилин</string>
+    <string name="TextViewPregnantCash">600 гривень</string>
+    <string name="TextViewLanguage" translatable="false">Мова</string>
+    <string name="TextViewLanguagePolish" translatable="false">Polska</string>
+    <string name="TextViewLanguageCzech" translatable="false">Česká republika</string>
+    <string name="TextViewLanguageDeutsch" translatable="false">Deutsch</string>
+    <string name="TextViewLanguageFrench" translatable="false">
+Français</string>
+    <string name="TextViewLanguageGeorgia" translatable="false">ქართული</string>
+    <string name="TextViewLanguageIsrael" translatable="false">ישראל</string>
+    <string name="TextViewLanguageAzerbaijan" translatable="false">Azərbaycan</string>
+    <string name="TextViewLanguageAmerica" translatable="false">American</string>
+    <string name="TextViewLanguageUkraina" translatable="false">Україна</string>
+    <string name="TextViewMassageFace" translatable="false">
+Масаж обличчя - це процедура, яка включає в себе різні техніки масажу, щоб поліпшити кровообіг, зменшити напругу мязів, зменшити набряки, розгладити зморшки та нерівності, покращити загальний вигляд шкіри. Масаж обличчя може бути виконаний різними способами, в залежності від потреб клієнта та його фізичного стану</string>
+
+</resources>

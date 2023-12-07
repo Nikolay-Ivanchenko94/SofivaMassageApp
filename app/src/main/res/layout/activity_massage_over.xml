@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MassageOverActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bg">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextViewActivityMassage"
+            android:hint="@string/TextViewMassageOver"
+            android:textSize="25sp"
+            android:fontFamily="@font/old_standard_tt"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"/>
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:id="@+id/BtnMassageOverFAQ"
+            android:background="@drawable/faq"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="360dp"
+            android:padding="3dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/transperentborder">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/BtnMassageOverAccount"
+            android:background="@drawable/transperentborder"
+            android:hint="@string/BtnAccount"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/old_standard_tt"
+            android:padding="4dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/BtnMassageOverServices"
+            android:layout_marginLeft="120dp"
+            android:hint="@string/BtnServices"
+            android:background="@drawable/transperentborder"
+            android:fontFamily="@font/old_standard_tt"
+            android:padding="4dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/BtnMassageOverSettings"
+            android:layout_marginLeft="230dp"
+            android:padding="4dp"
+            android:background="@drawable/transperentborder"
+            android:hint="@string/BtnSettings"
+            android:fontFamily="@font/old_standard_tt"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/BtnMassageOverAbout"
+            android:hint="@string/BtnAbout"
+            android:layout_marginLeft="330dp"
+            android:background="@drawable/transperentborder"
+            android:fontFamily="@font/old_standard_tt"/>
+    </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/bg"/>
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/arrow"
+        android:id="@+id/BtnArrowMassageOver"/>
+
+
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/nextpage"
+        android:id="@+id/BtnNextPageMassageOver"
+        android:layout_marginLeft="370dp"/>
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/massageover"
+        android:id="@+id/ImageViewMassageOver"
+        android:layout_marginLeft="100dp"
+        android:padding="4dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewMassageOver"
+        android:text="Загальний масаж тіла"
+        android:textSize="20sp"
+        android:fontFamily="@font/old_standard_tt"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="100dp"
+        android:padding="6dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewMassageOverText"
+        android:text="Загальний масаж тіла - це комплексна процедура, яка включає в себе масаж різних частин тіла з метою поліпшення кровообігу, розслаблення м'язів, зменшення болю та стресу. Загальний масаж може бути виконаний різними способами, в залежності від потреб клієнта та його фізичного стану."
+        android:textSize="21sp"
+        android:fontFamily="@font/old_standard_tt"
+        android:layout_marginLeft="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/bg">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/ImageViewMassageOverTime"
+            android:background="@drawable/time"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/TextViewMassageOverTime"
+            android:text="90 хвилин"
+            android:textSize="20sp"
+            android:fontFamily="@font/old_standard_tt"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/cash"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/ImageViewMassageOverCash"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="900 гривень"
+            android:textSize="20sp"
+            android:id="@+id/TextViewMassageOverCash"
+            android:fontFamily="@font/old_standard_tt"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="45dp"/>
+
+    </RelativeLayout>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/BtnMassageOverRight"
+    android:background="@drawable/btn_bg"
+    android:layout_marginLeft="100dp"
+    android:layout_marginRight="90dp"
+    android:minHeight="@dimen/cardview_compat_inset_shadow"
+    android:minWidth="@dimen/cardview_compat_inset_shadow"
+    android:padding="4dp"
+    android:layout_marginTop="15dp"
+    android:hint="@string/BtnRight"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

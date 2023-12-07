@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".AccountActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/bg">
+
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/BtnBack"
+                android:background="@drawable/arrow"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:id="@+id/ImageViewProfile"
+                android:layout_centerInParent="true"
+                android:background="@drawable/icon_profile"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewAccount"
+                android:hint="@string/TextViewUserProfile"
+                android:layout_below="@+id/ImageViewProfile"
+                android:textSize="25sp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/old_standard_tt"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:background="@color/white">
+
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/ImageViewAccountName"
+                android:background="@drawable/surname"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewUserName"
+                android:hint="@string/TextViewUserProfileName"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewImageName"
+                android:layout_below="@+id/TextViewUserName"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="15dp"/>
+
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/ImageViewBd"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/birthday"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewBirthday"
+                android:hint="@string/TextViewUserProfileBd"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_below="@+id/ViewImageName"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewImageBirthday"
+                android:layout_below="@+id/TextViewBirthday"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="15dp"/>
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewUserPhone"
+                android:layout_marginTop="135dp"
+                android:background="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewPhone"
+                android:hint="@string/TextViewUserProfilePhone"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_below="@+id/ViewImageBirthday"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewImagePhone"
+                android:layout_below="@+id/TextViewPhone"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="15dp"/>
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewUserEmail"
+                android:layout_marginTop="195dp"
+                android:background="@drawable/email"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewUserEmail"
+                android:hint="@string/TextViewUserProfileEmail"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_below="@+id/ViewImagePhone"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewImageEmail"
+                android:layout_below="@+id/TextViewUserEmail"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="15dp"/>
+
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewUserPassword"
+                android:layout_marginTop="250dp"
+                android:background="@drawable/password"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewChangePassword"
+                android:hint="@string/TextViewChangePassword"
+                android:textSize="20sp"
+                android:layout_below="@+id/ViewImageEmail"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginLeft="50dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewImageChangePassword"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/TextViewChangePassword"
+                android:layout_marginTop="15dp"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="305dp"
+                android:id="@+id/BtnChangePassword"
+                android:hint="@string/BtnChangePassword"
+                android:background="@drawable/btn_bg"
+                android:minHeight="@dimen/cardview_compat_inset_shadow"
+                android:minWidth="@dimen/cardview_compat_inset_shadow"
+                android:padding="3dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

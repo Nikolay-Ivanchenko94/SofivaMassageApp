@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".LanguageActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/arrow"
+                android:id="@+id/BtnLanguageArrow"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Language"
+                android:hint="@string/TextViewLanguage"
+                android:textSize="25sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginLeft="150dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/ImageViewPolishLanguage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/polskalanguage" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewPolishLanguage"
+                android:hint="@string/TextViewLanguagePolish"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnPolishArrowRight"
+                android:background="@drawable/arrow_right"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="9dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewPolishLanguage"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@id/TextViewPolishLanguage"
+                android:layout_marginTop="20dp"/>
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewCzechLanguage"
+                android:background="@drawable/czechlanguage"
+                android:layout_below="@+id/ViewPolishLanguage"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="9dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/TextViewCzechLanguage"
+                android:hint="@string/TextViewLanguageCzech"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/ViewPolishLanguage"/>
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnCzechArrowRight"
+                android:background="@drawable/arrow_right"
+                android:layout_below="@+id/ViewPolishLanguage"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="17dp"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/ViewCzechLanguage"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@id/TextViewCzechLanguage"
+                android:layout_marginTop="20dp"/>
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewDeutschLanguage"
+                android:background="@drawable/deutschlanguage"
+                android:layout_below="@+id/ViewCzechLanguage"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewDeutschLanguage"
+                android:hint="@string/TextViewLanguageDeutsch"
+                android:layout_below="@id/ViewCzechLanguage"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"/>
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnDeutschLanguage"
+                android:background="@drawable/arrow_right"
+                android:layout_below="@id/ViewCzechLanguage"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="330dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewDeutschLanguage"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/TextViewDeutschLanguage"
+                android:layout_marginTop="20dp"/>
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewFrenchLanguage"
+                android:background="@drawable/freanchlanguage"
+                android:layout_below="@+id/ViewDeutschLanguage"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="9dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewFrenchLanguage"
+                android:hint="@string/TextViewLanguageFrench"
+                android:layout_below="@+id/ViewDeutschLanguage"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnFrenchLanguage"
+                android:background="@drawable/arrow_right"
+                android:layout_below="@+id/ViewDeutschLanguage"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="15dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewFrenchLanguage"
+                android:layout_below="@+id/TextViewFrenchLanguage"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+            
+            
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewGeorgiaLanguage"
+                android:background="@drawable/georgialanguage"
+                android:layout_below="@+id/ViewFrenchLanguage"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="9dp"/>
+            
+            
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewGeorgiaLanguage"
+                android:hint="@string/TextViewLanguageGeorgia"
+                android:layout_below="@+id/ViewFrenchLanguage"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnLanguageGeorgia"
+                android:background="@drawable/arrow_right"
+                android:layout_below="@+id/ViewFrenchLanguage"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="15dp"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewGeorgiaLanguage"
+                android:layout_below="@+id/TextViewGeorgiaLanguage"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewIsraeLanguage"
+                android:background="@drawable/israellanguage"
+                android:layout_below="@+id/ViewGeorgiaLanguage"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/TextViewIsraelLanguage"
+                android:hint="@string/TextViewLanguageIsrael"
+                android:layout_below="@+id/ViewGeorgiaLanguage"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"/>
+
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnLanguageIsrael"
+                android:background="@drawable/arrow_right"
+                android:layout_below="@+id/ViewGeorgiaLanguage"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="15dp"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewIsraelLanguage"
+                android:layout_below="@+id/TextViewIsraelLanguage"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewLanguageAzerbaijan"
+                android:background="@drawable/azerbaijanlanguage"
+                android:layout_below="@+id/ViewIsraelLanguage"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/TextViewAzerbaijanLanguage"
+                android:layout_below="@+id/ViewIsraelLanguage"
+                android:hint="@string/TextViewLanguageAzerbaijan"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="15dp"/>
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnLanguageAzerbaijan"
+                android:background="@drawable/arrow_right"
+                android:layout_below="@+id/ViewIsraelLanguage"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="15dp"/>
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewLanguageAzerbaijan"
+                android:layout_below="@+id/TextViewAzerbaijanLanguage"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/BtnAmericaLananguage"
+                android:background="@drawable/americanlanguage"
+                android:layout_below="@+id/ViewLanguageAzerbaijan"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="11dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewAmericanLanguage"
+                android:hint="@string/TextViewLanguageAmerica"
+                android:layout_below="@+id/ViewLanguageAzerbaijan"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="15dp"/>
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnLanguageAmerican"
+                android:layout_below="@+id/ViewLanguageAzerbaijan"
+                android:background="@drawable/arrow_right"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="15dp"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewLanguageAmerican"
+                android:layout_below="@+id/TextViewAmericanLanguage"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/ImageViewUkrainaLanguage"
+                android:background="@drawable/ukrainelanguage"
+                android:layout_below="@+id/ViewLanguageAmerican"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="9dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/TextViewUkrainaLanguage"
+                android:hint="@string/TextViewLanguageUkraina"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_below="@+id/ViewLanguageAmerican"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"/>
+
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnUkraineLanguage"
+                android:background="@drawable/arrow_right"
+                android:layout_below="@+id/ViewLanguageAmerican"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="15dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewLanguageUkraine"
+                android:layout_below="@+id/TextViewUkrainaLanguage"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

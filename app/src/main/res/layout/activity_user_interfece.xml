@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".UserInterfeaceActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/bg">
+
+
+            <TextView
+                android:id="@+id/TextViewActivityUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:fontFamily="@font/old_standard_tt"
+                android:hint="@string/TextViewActivityUser"
+                android:textSize="25sp"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"/>
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:id="@+id/BtnFAQ"
+                android:background="@drawable/faq"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="360dp"
+                android:padding="3dp"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/transperentborder">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/BtnAccount"
+                android:hint="@string/BtnAccount"
+                android:padding="4dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/transperentborder"
+                android:fontFamily="@font/old_standard_tt"/>
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/BtnServices"
+                android:hint="@string/BtnServices"
+                android:padding="4dp"
+                android:layout_marginLeft="120dp"
+                android:background="@drawable/transperentborder"
+                android:fontFamily="@font/old_standard_tt"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/BtnSettings"
+                android:padding="4dp"
+                android:hint="@string/BtnSettings"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginLeft="230dp"
+                android:background="@drawable/transperentborder"/>
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/BtnAbout"
+                android:padding="4dp"
+                android:hint="@string/BtnAbout"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginLeft="330dp"
+                android:background="@drawable/transperentborder"/>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@drawable/bg"/>
+
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/BtnNextPage"
+            android:background="@drawable/nextpage"
+            android:layout_marginLeft="370dp"/>
+
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/ImageViewMassageBack"
+            android:background="@drawable/massageback"
+            android:padding="4dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextViewMassage"
+            android:hint="@string/TextViewBackMassageBack"
+            android:textSize="20sp"
+            android:fontFamily="@font/old_standard_tt_bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"
+            android:padding="6dp"/>
+
+
+        <TextView
+            android:id="@+id/TextViewMassageBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/old_standard_tt"
+            android:hint="@string/TextViewMassageBack"
+            android:textAppearance="@string/TextViewMassageBack"
+            android:textSize="21sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/bg">
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewTime"
+                android:background="@drawable/time"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/TextViewActivityTime"
+                android:hint="@string/"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_below="@+id/ImageViewTime"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"/>
+
+
+            <ImageView
+                android:id="@+id/ImageViewCash"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cash" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/TextViewActivityCash"
+                android:hint="@string/TextViewActivityCash"
+                android:fontFamily="@font/old_standard_tt"
+                android:textSize="20sp"
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="40dp"/>
+
+        </RelativeLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/BtnRight"
+            android:hint="@string/BtnRight"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="90dp"
+            android:minWidth="@dimen/cardview_compat_inset_shadow"
+            android:minHeight="@dimen/cardview_compat_inset_shadow"
+            android:padding="4dp"
+            android:layout_marginTop="15dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

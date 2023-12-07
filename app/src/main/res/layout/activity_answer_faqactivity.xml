@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".AnswerFAQActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:background="@color/white">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Answer1"
+            android:text="* Злоякісні і доброякісні пухлини.
+* Новоутворення на шкірі.
+* Захворювання крові, особливо з ймовірністю тромбозу або внутрішніх крововиливів.
+* Запальні процеси кісткової тканини.
+* Захворювання щитовидної залози.
+* Запально-алергічні шкірні захворювання.
+* Серцево-судинна недостатність."
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

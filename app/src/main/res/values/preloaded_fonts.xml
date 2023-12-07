@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/archivo_black</item>
+        <item>@font/archivo_bold</item>
+        <item>@font/candal</item>
+        <item>@font/gabriela</item>
+        <item>@font/meddon</item>
+        <item>@font/merienda</item>
+        <item>@font/old_standard_tt</item>
+        <item>@font/old_standard_tt_bold</item>
+        <item>@font/sora_medium</item>
+    </array>
+</resources>

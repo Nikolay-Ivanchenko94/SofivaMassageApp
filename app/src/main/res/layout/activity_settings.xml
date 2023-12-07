@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".SettingsActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp">
+
+
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/BtnSettings"
+                android:background="@drawable/arrow"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewSetting"
+                android:text="Налаштування"
+                android:textSize="25sp"
+                android:fontFamily="@font/old_standard_tt_bold"
+                android:layout_marginLeft="90dp"/>
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_margin="15dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewAccount"
+                android:background="@drawable/acount"
+                android:layout_marginTop="9dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewUserSettings"
+                android:text="Акаунт"
+                android:textSize="20sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/old_standard_tt"/>
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnAccountArrow"
+                android:background="@drawable/arrow_right"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="4dp"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewAccount"
+                android:layout_below="@+id/TextViewUserSettings"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewSetingsNotification"
+                android:layout_below="@+id/ViewAccount"
+                android:background="@drawable/notification"
+                android:layout_marginTop="37dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewNotification"
+                android:text="Повідомлення"
+                android:textSize="20sp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_below="@+id/ViewAccount"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="35dp"/>
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnNotification"
+                android:background="@drawable/arrow_right"
+                android:layout_marginLeft="330dp"
+                android:layout_below="@+id/ViewAccount"
+                android:layout_marginTop="43dp"/>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:id="@+id/ViewNotification"
+                android:layout_below="@+id/TextViewNotification"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewLanguage"
+                android:layout_below="@+id/ViewNotification"
+                android:background="@drawable/language"
+                android:layout_marginTop="37dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewLanguage"
+                android:text="Мова"
+                android:textSize="20sp"
+                android:layout_below="@+id/ViewNotification"
+                android:layout_marginLeft="42dp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginTop="37dp"/>
+
+
+           <Button
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:id="@+id/BtnLanguage"
+               android:background="@drawable/arrow_right"
+               android:layout_below="@+id/ViewNotification"
+               android:layout_marginLeft="330dp"
+               android:layout_marginTop="40dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewLanguage"
+                android:layout_below="@+id/TextViewLanguage"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewPrivacyPolicy"
+                android:background="@drawable/privacy_policy"
+                android:layout_below="@+id/ViewLanguage"
+                android:layout_marginTop="37dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewPrivacyPolicy"
+                android:text="Політика конфідейціності"
+                android:textSize="20sp"
+                android:layout_below="@+id/ViewLanguage"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="37dp"/>
+            
+            
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnPolicy"
+                android:background="@drawable/arrow_right"
+                android:layout_below="@+id/ViewLanguage"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="40dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewPolicy"
+                android:layout_below="@+id/TextViewPrivacyPolicy"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/ImageViewHelpSupport"
+                android:background="@drawable/helpsupport"
+                android:layout_below="@+id/TextViewPrivacyPolicy"
+                android:layout_marginTop="57dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewHelpSupport"
+                android:text="Допомога і підтримка"
+                android:textSize="20sp"
+                android:layout_below="@+id/ViewPolicy"
+                android:layout_marginLeft="47dp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginTop="37dp"/>
+
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnSupport"
+                android:background="@drawable/arrow_right"
+                android:layout_below="@+id/ViewPolicy"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="45dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewSupport"
+                android:layout_below="@+id/TextViewHelpSupport"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewAbout"
+                android:background="@drawable/about"
+                android:layout_below="@+id/ViewSupport"
+                android:layout_marginTop="37dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewAbout"
+                android:text="Про нас"
+                android:textSize="20sp"
+                android:layout_below="@+id/ViewSupport"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="37dp"
+                android:fontFamily="@font/old_standard_tt"/>
+
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/Btnabaout"
+                android:background="@drawable/arrow_right"
+                android:layout_below="@+id/ViewSupport"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="45dp"/>
+
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:id="@+id/ViewAbout"
+                android:layout_below="@+id/TextViewAbout"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ImageViewLogOut"
+                android:background="@drawable/logout"
+                android:layout_below="@+id/ViewAbout"
+                android:layout_marginTop="40dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewLogOut"
+                android:text="Вийти"
+                android:layout_below="@+id/ViewAbout"
+                android:textSize="20sp"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="@font/old_standard_tt"
+                android:layout_marginTop="37dp"/>
+
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/BtnLogOut"
+                android:background="@drawable/arrow_right"
+                android:layout_below="@+id/ViewAbout"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="45dp"/>
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/ViewLogOut"
+                android:layout_below="@+id/TextViewLogOut"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="20dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

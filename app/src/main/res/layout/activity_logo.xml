@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".LogoActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextViewHead"
+            android:text="Вхід / Реєстрація "
+            android:textSize="30sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/old_standard_tt"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextViewEmail"
+            android:text="Введіть ваш E-mail"
+            android:textSize="24sp"
+            android:layout_marginTop="70dp"
+            android:layout_below="@id/TextViewHead"
+            android:fontFamily="@font/old_standard_tt"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditTextEmail"
+            android:hint="@string/EditTextLoginEmail"
+            android:fontFamily="@font/old_standard_tt"
+            android:layout_below="@id/TextViewEmail"
+            android:background="@drawable/border"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:inputType="textEmailAddress"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextViewPassword"
+            android:text="Введіть ваш пароль"
+            android:textSize="24sp"
+            android:layout_marginTop="70dp"
+            android:layout_below="@id/EditTextEmail"
+            android:fontFamily="@font/old_standard_tt"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditTextPassword"
+            android:hint="@string/EditTextLoginPassword"
+            android:fontFamily="@font/old_standard_tt"
+            android:layout_below="@id/TextViewPassword"
+            android:background="@drawable/border"
+            app:passwordToggleEnabled="true"
+            android:padding="4dp"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"/>
+
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/CheckBoxLogo"
+            android:layout_below="@id/EditTextPassword"
+            android:layout_marginTop="17dp"
+            android:text="Запам'ятати мене"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/TextViewRemember"
+            android:text="Запам'ятати мене"
+            android:textSize="20sp"
+            android:fontFamily="@font/old_standard_tt"
+            android:layout_below="@+id/EditTextPassword"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="40dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/BtnLogo"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="75dp"
+            android:minWidth="@dimen/cardview_compat_inset_shadow"
+            android:minHeight="@dimen/cardview_compat_inset_shadow"
+            android:text="Увійти"
+            android:textColor="@color/white"
+            android:fontFamily="@font/old_standard_tt"
+            android:background="@drawable/btn_bg"
+            android:padding="5dp"
+            android:layout_below="@id/EditTextPassword"
+            android:layout_marginTop="85dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnClickRegister"
+            android:background="@drawable/btn_bg"
+            android:text="Зареєструватися"
+            android:padding="5dp"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/old_standard_tt"
+            android:layout_below="@id/BtnLogo"
+            android:layout_marginTop="82dp"
+            android:layout_marginRight="190dp"
+            android:minHeight="@dimen/cardview_compat_inset_shadow"
+            android:minWidth="@dimen/cardview_compat_inset_shadow"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnClickForgotPassword"
+            android:background="@drawable/btn_bg"
+            android:text="Забули пароль"
+            android:padding="5dp"
+            android:textSize="13sp"
+            android:minWidth="@dimen/cardview_compat_inset_shadow"
+            android:minHeight="@dimen/cardview_compat_inset_shadow"
+            android:fontFamily="@font/old_standard_tt"
+            android:layout_below="@id/BtnLogo"
+            android:layout_marginTop="82dp"
+            android:layout_marginLeft="190dp"/>
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>

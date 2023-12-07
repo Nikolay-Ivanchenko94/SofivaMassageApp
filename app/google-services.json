@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "960632233267",
+    "project_id": "sofivamassageapp",
+    "storage_bucket": "sofivamassageapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960632233267:android:4c2203c2d9e8970d603246",
+        "android_client_info": {
+          "package_name": "com.example.sofivamassageapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaSqv5u-63jbnngzlkgZWJtxqwq34Zhg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

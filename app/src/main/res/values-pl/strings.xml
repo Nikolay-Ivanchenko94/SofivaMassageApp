@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="app_name">Aplikacja SofivaMassageApp</string>
+    <string name="EditTextLoginEmail">Twój adres e-mail</string>
+    <string name="EditTextLoginPassword">Twoje hasło</string>
+    <string name="BtnLoginBtn">Zaloguj się</string>
+    <string name="EditTextRegisterNameSurname">Imię i nazwisko użytkownika</string>
+    <string name="EditTextRegisterBd">Data urodzenia</string>
+    <string name="EditTextRegisterEmail">Twój adres e-mail</string>
+    <string name="EditTextRegisterPsw">Twoje hasło</string>
+    <string name="EditTextRegisterReturnPsw">Resetowanie hasła</string>
+    <string name="EditTextRegisterPhone">Twój numer telefonu</string>
+    <string name="TextViewUserProfile">Ustawienia.</string>
+    <string name="TextViewUserProfileName">Ustawienia.</string>
+    <string name="TextViewUserProfileEmail">Ustawienia.</string>
+    <string name="TextViewUserProfileBd">Ustawienia.</string>
+    <string name="TextViewUserProfilePhone">Ustawienia.</string>
+    <string name="TextViewForgotPassword">Zapomniałeś hasła?</string>
+    <string name="TextViewForgotPassword1">Wprowadź swój adres e-mail, aby odzyskać hasło</string>
+    <string name="EditTextForgotPasswordEmail">Twój adres e-mail</string>
+    <string name="BtnForgotPassword">Resetowanie hasła</string>
+    <string name="TextViewActivityUser">Dusza i ciało</string>
+    <string name="BtnAccount">Konto</string>
+    <string name="BtnFAQ">FAQ</string>
+    <string name="BtnServices">Usługi.</string>
+    <string name="BtnSettings">Ustawienia.</string>
+    <string name="BtnAbout">O nas</string>
+    <string name="TextViewBackMassageBack">Terapeutyczny masaż pleców</string>
+    <string name="TextViewMassageBack">Masaż pleców jest jednym z najpopularniejszych rodzajów masażu, ponieważ plecy są jedną z najbardziej obciążonych części ciała. Wykonuje się go w odcinku szyjnym, piersiowym i lędźwiowo-krzyżowym kręgosłupa. Pomaga rozluźnić mięśnie pleców, zmniejsza skurcze i pomaga złagodzić napięcie mięśniowe</string>
+    <string name="BtnRight">Zarejestruj się</string>
+    <string name="EditTextSettings">Znajdź ustawienia </string>
+    <string name="TextViewChangePassword">Ustawienia.</string>
+    <string name="BtnChangePassword">Zmiana hasła</string>
+    <string name="EditTextCurrentPassword">Wprowadź hasło</string>
+    <string name="EditTextNewPassword">Wprowadź nowe hasło</string>
+    <string name="EditTextConfirmPassword">Wprowadź zweryfikowane hasło</string>
+    <string name="BtnSetPassword">Resetowanie hasła</string>
+    <string name="TextViewMassageOver">Dusza i ciało</string>
+    <string name="TextViewActivityCash">400 hrywien</string>
+    <string name="TextViewMassageTotalFace">Masaż twarzy</string>
+    <string name="TextViewMassageFaceTime">30 minut</string>
+    <string name="TextViewMassageFaceCash">400 hrywien</string>
+    <string name="TextViewMassagePregnant">Masaż dla kobiet w ciąży</string>
+    <string name="TextViewPregnant">Masaż podczas ciąży to świetny sposób na złagodzenie napięcia i bólu u kobiet w ciąży. Może pomóc zmniejszyć obrzęk, poprawić krążenie, zmniejszyć stres, ból pleców i nóg oraz poprawić nastrój</string>
+    <string name="TextViewPregnantTime">60 minut</string>
+    <string name="TextViewPregnantCash">600 hrywien</string>
+    <string name="TextViewLanguage">Język.</string>
+    <string name="TextViewLanguagePolish" translatable="false">Polska</string>
+    <string name="TextViewLanguageCzech" translatable="false">Česká republika</string>
+    <string name="TextViewLanguageDeutsch" translatable="false">Deutsch</string>
+    <string name="TextViewLanguageFrench" translatable="false">
+Français</string>
+    <string name="TextViewLanguageGeorgia" translatable="false">ქართული</string>
+    <string name="TextViewLanguageIsrael" translatable="false">ישראל</string>
+    <string name="TextViewLanguageAzerbaijan" translatable="false">Azərbaycan</string>
+    <string name="TextViewLanguageAmerica" translatable="false">American</string>
+    <string name="TextViewLanguageUkraina" translatable="false">Україна</string>
+    <string name="TextViewMassageFace">
+Масаж обличчя - це процедура, яка включає в себе різні техніки масажу, щоб поліпшити кровообіг, зменшити напругу мязів, зменшити набряки, розгладити зморшки та нерівності, покращити загальний вигляд шкіри. Масаж обличчя може бути виконаний різними способами, в залежності від потреб клієнта та його фізичного стану</string>
+</resources>
